@@ -19,3 +19,7 @@ al about.
 -El suelo de este Lunar Lander ha sido cambiado por motivos de estética ,ya que con el suelo que nos daban los diseñadores 
 se deformaba al ensancharse.
 
+-En la versión vertical se han optimizado las dimensiones de cada imagen para que se ajuste a las pantallas para móviles.
+
+
+
