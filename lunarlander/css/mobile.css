@@ -1,0 +1,223 @@
+
+
+body{
+	 background-image:url(../img/espacio.png);
+	}
+
+
+.tierra{
+	 position:absolute;
+	 width:100%;
+	 height:15%;
+	 bottom:0%;
+	 left:0%;
+	
+}
+
+.tierra img{
+	 height: 100%;
+	 width: 100%;
+	
+}
+.nave {
+	 position: fixed;
+	 width:100%;
+	 height:20%;
+	 text-align:center;
+	 top:35%;
+}
+.nave img{
+	 height:100%;
+}
+.play {
+	 background-image:url(../img/play56x56.png);
+	 background-repeat: no-repeat;
+	 background-size: contain;
+	 position:absolute;
+	 left:2%;
+	 top:2%;
+	 width: 10%;
+     height: 120px;
+}
+.pausa{
+	 background-image:url(../img/pause.png);
+	 background-repeat: no-repeat;
+	 background-size: contain;
+	 position:absolute;
+	 left:14%;
+	 top:2%;
+	 width:10%;
+     height: 120px;
+	 }
+	
+.replay{
+	 background-image:url(../img/replay56x56.png);
+	 background-repeat: no-repeat;
+	 background-size: contain;
+	 position:absolute;
+	 left:26%;
+	 top:2%;
+	 width: 10%;
+     height: 120px;
+	 }	
+
+.help{
+	 position:absolute;
+	 bottom:18%;
+	 right:2%;
+     background-image: url(../img/help.png);
+     background-repeat: no-repeat;
+     background-size: contain;
+	 width: 10%;
+     height: 120px;
+}
+
+.gato{
+	 background-image:url(../img/gato.png);
+	 background-repeat:no-repeat;
+	 background-size:contain;
+	 position:absolute;
+	 bottom:5%;
+	 left:5%;
+	 width:20%;
+	 height:20%;
+}
+
+.menu{
+	 border-style:solid;
+	 border-color:grey;
+	 position:absolute;
+	 background:rgba(41, 37, 37, 0.85);
+	 right:4%;
+	 top:2%;
+	 width:55%;
+	 height:15%;
+}
+
+
+.marcador {
+	 position: relative;
+     width:100%;
+	 height:35%;
+	 border-bottom: 4px solid grey;
+}
+.marcador img {
+	 position:absolute;
+	 right:10%;
+	 top:20%;
+	 width:50%;
+	 height:60%;
+}
+.marcador p {
+	 position:absolute;
+	 margin:0%;
+	 padding:0%;
+	 color:white;
+	 font-size:4vw;	
+	 width:50%;
+	 left:10%;
+	 top:25%;
+} 
+.velocidad{
+	 position:relative ;
+     width:100%;
+	 height:30%;
+	 border-bottom: 4px solid grey;
+}
+ .vel1{
+	 position:absolute;
+	 margin:0%;
+	 padding:0%;
+	 color:white;
+	 font-size:4vw;	
+	 width:50%;
+	 left:10%;
+	 top:25%;
+}
+.vel2{
+	 position:absolute;
+	 margin:0%;
+	 padding:0%;
+	 color:white;
+	 font-size:4vw;	
+	 width:50%;
+	 right:10%;
+	 top:25%;
+}
+.altura{
+	 position:relative ;
+     width:100%;
+	 height:30%;
+}
+.altura1{
+	 position:absolute;
+	 margin:0%;
+	 padding:0%;
+	 color:white;
+	 font-size:4vw;	
+	 width:50%;
+	 left:10%;
+	 top:25%;
+}
+.altura2{
+	 position:absolute;
+	 margin:0%;
+	 padding:0%;
+	 color:white;
+	 font-size:4vw;	
+	 width:50%;
+	 right:10%;
+	 top:25%;
+}
+.pausamenu{
+	 position:fixed;
+	 width:50%;
+	 height:30%;
+	 top:30%;
+	 left:25%;
+     border-style:solid;
+	 border-color:grey;
+	 background:rgba(41, 37, 37, 0.85);
+	 display:none;
+}
+.pausamenu p{
+	 position:absolute;
+	 top:30%;
+	 left:15%;
+	 color:white;
+	 font-size:7vw;
+}
+.helpmenu{
+	 position:fixed;
+	 width:50%;
+	 height:30%;
+	 top:30%;
+	 left:25%;
+     border-style:solid;
+	 border-color:grey;
+	 background:rgba(41, 37, 37, 0.85);
+	 display:none;
+}
+.helpmenu ul{
+	 color:white;
+	 font-size:3.5vw;
+}
+.about{
+	 position:fixed;
+	 width:55%;
+	 height:30%;
+	 top:30%;
+	 left:25%;
+     border-style:solid;
+	 border-color:grey;
+	 background:rgba(41, 37, 37, 0.85);
+}
+.about p {
+	 position:relative;
+	 color:white;
+	 font-size:3.3vw;
+	 left:5%;
+}
+.helpmenu a{
+	 color:blue;
+}
